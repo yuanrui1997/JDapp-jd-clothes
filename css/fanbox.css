@@ -1,0 +1,259 @@
+@charset "UTF-8";
+body, p, dl, dd, ul, ol, li, div, h1, h2, h3, h4, h5, h6, form, input, table, tr, td {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+html {
+  font-size: 26.67vw; }
+
+body {
+  font-family: "微软雅黑",Arial;
+  position: relative;
+  background: white;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  color: #252525;
+  border-bottom: 1px solid #e5e5e5;
+  height: .44rem;
+  font-size: .16rem;
+  display: flex;
+  background: white;
+  justify-content: space-between; }
+  header img {
+    width: .2rem;
+    height: .2rem; }
+  header .header_icon1 {
+    margin: 12px 0 0 10px; }
+  header .header_icon2 {
+    margin: 12px 12px 12px 10px; }
+  header h3 {
+    font-weight: 500;
+    line-height: .44rem; }
+
+.video_box {
+  height: 2rem;
+  position: relative; }
+  .video_box .top {
+    height: 1rem;
+    background: url(../img/video_box_bg2.dpg) no-repeat;
+    background-size: cover; }
+  .video_box .bottom {
+    height: 1rem;
+    background: url(../img/video_box_bg1.dpg) no-repeat;
+    background-size: cover; }
+  .video_box .video {
+    width: 1.54rem;
+    height: 1.33rem;
+    overflow: hidden;
+    position: absolute;
+    top: .56rem;
+    left: .23rem; }
+  .video_box video {
+    width: 2rem;
+    height: 1.3rem; }
+  .video_box .video_bg {
+    width: 1.54rem;
+    height: 1.33rem;
+    background: url(../img/video.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: .5rem;
+    left: .23rem; }
+
+.fanbox_more img {
+  width: 100%;
+  height: .55rem; }
+
+.demo_list {
+  padding: 0 .1rem; }
+  .demo_list .first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .1rem; }
+  .demo_list img {
+    width: .88rem;
+    height: .88rem; }
+
+.new_goods {
+  padding: 0.1rem 0; }
+  .new_goods img {
+    height: .71rem; }
+
+.brands_list {
+  padding: 0 .1rem .1rem; }
+  .brands_list .list {
+    background: url(../img/brands1.webp) no-repeat;
+    background-size: cover;
+    width: 3.55rem;
+    height: 1.2rem;
+    border-radius: .05rem;
+    display: flex;
+    position: relative;
+    align-items: center; }
+    .brands_list .list img {
+      width: .8rem;
+      height: .8rem;
+      margin-right: .03rem; }
+    .brands_list .list .img_list {
+      position: absolute;
+      display: flex;
+      left: 1.8rem; }
+
+.brands_more {
+  height: 1.29rem;
+  background: url(../img/more.png) no-repeat;
+  background-size: cover;
+  margin-bottom: .1rem; }
+  .brands_more .brands {
+    display: flex;
+    padding: 0 .1rem; }
+    .brands_more .brands img {
+      width: .56rem;
+      height: .3rem;
+      margin: .16rem; }
+
+.gap {
+  height: .1rem;
+  background: black; }
+
+.tide .tide_title img {
+  height: .6rem; }
+.tide .tide_swiper {
+  margin-top: -0.01rem;
+  height: 2.94rem;
+  background: url(../img/fanbox_lunbo_bg.dpg) no-repeat;
+  background-size: cover; }
+  .tide .tide_swiper .swiper-wrapper {
+    position: absolute;
+    top: .2rem;
+    right: .3rem; }
+  .tide .tide_swiper img {
+    width: 1.89rem;
+    height: 2.46rem; }
+  .tide .tide_swiper .swiper-pagination-bullet-active {
+    background: white; }
+  .tide .tide_swiper .swiper-pagination {
+    position: absolute;
+    top: 1.8rem; }
+
+.app img {
+  height: 1.71rem;
+  margin-bottom: .1rem; }
+
+.weekly img {
+  height: .44rem;
+  margin-bottom: .1rem; }
+
+.love img {
+  height: 3.33rem; }
+
+.more_last {
+  margin-bottom: .1rem; }
+  .more_last img {
+    height: 1rem; }
+
+.recommed {
+  background: #f5f1f1; }
+  .recommed .title_pic {
+    margin-bottom: .1rem; }
+    .recommed .title_pic img {
+      height: .6rem; }
+
+.girl_goods {
+  padding: 0 .03rem; }
+  .girl_goods .goods {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-bottom: .02rem; }
+    .girl_goods .goods .first {
+      background: white;
+      width: 1.83rem;
+      position: relative; }
+      .girl_goods .goods .first img {
+        width: 1.27rem;
+        height: 1.16rem;
+        margin: .26rem auto 0; }
+      .girl_goods .goods .first .goods_icon {
+        width: .26rem;
+        height: .26rem;
+        position: absolute;
+        left: .1rem;
+        top: .1rem;
+        margin: 0; }
+      .girl_goods .goods .first .name {
+        width: 1.66rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: .12rem;
+        margin: .06rem auto .12rem; }
+      .girl_goods .goods .first .price {
+        display: flex;
+        padding: 0 .05rem;
+        justify-content: space-between;
+        margin-bottom: .2rem; }
+        .girl_goods .goods .first .price p {
+          font-size: .12rem;
+          font-weight: 800; }
+        .girl_goods .goods .first .price span {
+          font-size: .11rem; }
+        .girl_goods .goods .first .price img {
+          margin: 0;
+          width: .18rem;
+          height: .18rem; }
+  .girl_goods .goods:last-child {
+    margin-bottom: .56rem; }
+
+footer {
+  width: 100%;
+  height: .54rem;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  z-index: 100; }
+  footer .item1 {
+    width: .5rem;
+    height: 100%;
+    background: url(../img/footer1.webp);
+    background-position: -.55rem 0px;
+    background-size: cover; }
+  footer .item2 {
+    width: .5rem;
+    height: 100%;
+    background: url(../img/footer2.webp);
+    background-position: -.55rem 0px;
+    background-size: cover; }
+  footer .item3 {
+    width: .5rem;
+    height: 100%;
+    background: url(../img/footer3.webp);
+    background-position: -.55rem 0px;
+    background-size: cover; }
+  footer .item4 {
+    width: .5rem;
+    height: 100%;
+    background: url(../img/footer4.webp);
+    background-position: 0px 0px;
+    background-size: cover; }
+
+/*# sourceMappingURL=fanbox.css.map */

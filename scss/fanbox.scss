@@ -1,0 +1,350 @@
+@charset "utf-8";
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+html{
+		font-size: 26.67vw;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	// display:-webkit-flex;
+	position: relative;
+	background: white;
+	overflow-y:auto;
+	overflow-x: hidden;
+	// -webkit-flex-direction:column;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+
+// header
+header{
+	width: 100%;
+	color:#252525;
+	border-bottom: 1px solid #e5e5e5;
+	height: .44rem;
+	font-size:.16rem;
+    display: flex;
+    background: white;
+	justify-content: space-between;
+    img{
+        width:.2rem;
+        height: .2rem;
+    }
+    .header_icon1{
+        margin: 12px 0 0 10px;
+    }
+    .header_icon2{
+        margin: 12px 12px 12px 10px;
+        
+    }
+    h3{
+        font-weight: 500;
+        line-height: .44rem;
+    }
+}
+
+// video
+.video_box{
+    height: 2rem;
+    position: relative;
+    .top{
+        height:1rem ;
+        background: url(../img/video_box_bg2.dpg) no-repeat;
+        background-size: cover;
+    }
+    .bottom{
+        height:1rem ;
+        background: url(../img/video_box_bg1.dpg) no-repeat;
+        background-size: cover;
+    }
+    .video{
+        width:1.54rem;
+        height: 1.33rem;
+        overflow: hidden;
+        position: absolute;
+        top: .56rem;
+        left: .23rem;
+    }
+    video{
+        width:2rem;
+        height: 1.3rem;
+        
+    }
+    .video_bg{
+        width:1.54rem;
+        height: 1.33rem;
+        background: url(../img/video.png) no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: .5rem;
+        left: .23rem;
+    }
+}
+
+// fanbox_more_1
+.fanbox_more{
+    img {
+        width: 100%;
+        height: .55rem;
+    }
+}
+
+// demon_list
+.demo_list{
+    padding:0 .1rem;
+    .first{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .1rem;
+    }
+    img{
+        width:.88rem;
+        height: .88rem;
+    }
+}
+
+// fanbox_more_2{
+.new_goods{
+    padding:.1rem 0 ;
+    img{
+        height:.71rem;
+    }
+}
+
+// brands_list
+.brands_list{
+    padding:0 .1rem .1rem;
+    .list{
+        background: url(../img/brands1.webp) no-repeat;
+        background-size: cover;
+        width:3.55rem;
+        height: 1.2rem;
+        border-radius: .05rem;
+        display: flex;
+        position: relative;
+        align-items: center;
+        img{
+            width:.8rem;
+            height: .8rem;
+            margin-right: .03rem;
+        }
+        .img_list{
+            position: absolute;
+            display: flex; 
+            left:1.8rem;
+        }
+    }
+}
+
+// brands_more
+.brands_more{
+    height: 1.29rem;
+    background: url(../img/more.png) no-repeat;
+    background-size: cover;
+    margin-bottom: .1rem;
+    .brands{
+        display: flex;
+        padding:0 .1rem;
+        img{
+            width:.56rem;
+            height: .3rem;
+            margin:.16rem;
+        }
+    }
+}
+
+// gap
+.gap{
+    height: .1rem;
+    background: black;
+}
+
+// tide
+.tide{
+    .tide_title{
+        img{
+            height: .6rem;
+        }
+    }
+    .tide_swiper{
+        margin-top:-0.01rem;
+        height: 2.94rem;
+        background: url(../img/fanbox_lunbo_bg.dpg) no-repeat;
+        background-size: cover;
+        .swiper-wrapper{
+            position: absolute;
+            top:.2rem;
+            right:.3rem;
+        }
+        img{
+            width:1.89rem;
+            height: 2.46rem;
+        }
+        .swiper-pagination-bullet-active{
+            background: white;
+        }
+        .swiper-pagination{
+            position: absolute;
+            top:1.8rem;
+        }
+    }
+}
+
+// app
+.app{
+    img{
+        height: 1.71rem;
+        margin-bottom: .1rem;
+    }
+}
+
+// weekly
+.weekly{
+    img{
+        height: .44rem;
+        margin-bottom: .1rem;
+    }
+}
+
+// first_love
+.love{
+    img{
+        height: 3.33rem;
+    }
+}
+
+// more_last
+.more_last{
+    img{
+        height: 1rem;
+    }
+    margin-bottom: .1rem;
+}
+
+// recommed
+.recommed{
+    background: rgb(245, 241, 241);
+    .title_pic{
+        margin-bottom: .1rem;
+        img{
+            height: .6rem;
+        }
+    }
+}
+
+.girl_goods{
+    padding:0 .03rem;
+    .goods{
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        margin-bottom: .02rem;
+        .first{
+            background: white;
+            width:1.83rem;
+            position: relative;
+            img{
+                width:1.27rem;
+                height: 1.16rem;
+                margin:.26rem auto 0;
+
+            }
+            .goods_icon{
+                width:.26rem;
+                height: .26rem;
+                position: absolute;
+                left:.1rem;
+                top:.1rem;
+                margin:0;
+            }
+            .name{
+                width:1.66rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-size:.12rem;
+                margin:.06rem auto .12rem;
+
+            }
+            .price{
+                display: flex;
+                padding:0 .05rem;
+                justify-content: space-between;
+                margin-bottom: .2rem;
+                p{
+                    font-size:.12rem;
+                    font-weight: 800;
+                }
+                span{
+                    font-size:.11rem;
+                }
+                img{
+                    margin:0;
+                    width:.18rem;
+                    height: .18rem;
+                }
+            }
+        }
+    }
+    .goods:last-child{
+        margin-bottom: .56rem;
+    }
+}
+
+// footer
+footer{
+	width:100%;
+	height: .54rem;
+	display: flex;
+    justify-content: space-around;
+    background: white;
+    position: fixed;
+    bottom:0;
+    z-index: 200;
+	.item1{
+		
+		width:.5rem;
+		height: 100%;
+		background: url(../img/footer1.webp);
+		background-position: -.55rem 0px;
+		background-size:cover;
+	}
+	.item2{
+		
+		width:.5rem;
+		height: 100%;
+		background: url(../img/footer2.webp);
+		background-position: -.55rem 0px;
+		background-size:cover;
+	}
+	.item3{
+		
+		width:.5rem;
+		height: 100%;
+		background: url(../img/footer3.webp);
+		background-position: -.55rem 0px;
+		background-size:cover;
+	}
+	.item4{
+		
+		width:.5rem;
+		height: 100%;
+		background: url(../img/footer4.webp);
+		background-position: 0px 0px;
+		background-size:cover;
+	}
+}

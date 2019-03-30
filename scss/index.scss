@@ -1,0 +1,407 @@
+@charset "utf-8";
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+html{
+		font-size: 26.67vw;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	// display:-webkit-flex;
+	position: relative;
+	background: white;
+	overflow-y:auto;
+	overflow-x: hidden;
+	// -webkit-flex-direction:column;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+
+// header
+header{
+	width: 100%;
+	color:#252525;
+	border-bottom: 1px solid #e5e5e5;
+	height: .44rem;
+	font-size:.16rem;
+	display: flex;
+	justify-content: space-between;
+			img{
+				width:.2rem;
+				height: .2rem;
+			}
+			.header_icon1{
+				margin: 12px 0 0 10px;
+			}
+			.header_icon2{
+				margin: 12px 12px 12px 10px;
+				
+			}
+			h3{
+				font-weight: 500;
+				line-height: .44rem;
+			}
+	}
+	
+
+//banner
+.banner{
+	height: 2.1rem;
+	// position: relative;
+	background: #252525;
+	.recom{
+		display: flex;
+		font-size: .12rem;
+		padding: .1rem 0;
+		color:white;
+		p{
+			margin: 0 .1rem 0 .18rem;
+		}
+		ul{
+			display: flex;
+			li{
+				background: rgba(0,0,0,.6);
+				border-radius: .13rem;
+				width: .7rem;
+				height: .17rem;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				margin-right: .1rem;
+				line-height: .17rem;
+				text-align: center;
+			}
+		}
+	}
+	.rotate{
+		width:3.5rem;
+		height: 2.1rem;
+		left:.13rem;
+		background: pink;
+		border-radius: .1rem;
+		margin-right:1.1rem;
+		img{
+			width:100%;
+			height: 100%;
+		}
+		#progress{
+			background: #646464;
+			top: 2rem;
+			height: .02rem;
+			width: .9rem;
+			left: 1.3rem;
+		}
+		.swiper-pagination-progressbar-fill{
+			background: white !important;
+		}
+		
+	}
+}
+
+
+// selected_brands
+.brands{
+	margin-top:.55rem;
+	border-top:1px solid #999;
+	.title{
+		margin:.14rem 0;
+		width:100%;
+		text-align: center;
+		font-weight: 300;
+		h3{
+			font-size:.18rem;
+		}
+		h4{
+			font-size:.11rem;
+		}
+	}
+	.more{
+		display: flex;
+		margin-bottom: .2rem;
+		img{
+			width:.77rem;
+			height: .77rem;
+			
+		}
+		.nav_pic{
+			width:.38rem;
+			height: .87rem;
+			position: absolute;
+			left:0;
+			z-index:20;
+		}
+		.nav_pic2{
+			width:.38rem;
+			height: .87rem;
+			position: absolute;
+			right:0;
+			z-index:20;
+		}
+		.list{
+			margin-top:.05rem;
+		}
+
+	}
+}
+
+// channel
+.channel{
+	width:100%;
+	overflow-x: hidden;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	height: 3.67rem;
+	background:url(../img/channer_bg.webp) no-repeat;
+	background-size:cover;
+	.swiper-container3{
+		width:100%;
+		position: absolute;
+		top:1rem;
+		left:.2rem;
+	}
+	.swiper-slide{
+		width: 1.05rem !important;
+		height: 1.2rem;
+		background: white;
+		border-radius: .05rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-right: .1rem;
+		margin-bottom: .1rem;
+	}
+	.box3{
+		background: url(../img/bg.png) no-repeat;
+		background-size: cover;
+	}
+	.box3_pic{
+		margin-top:.3rem;
+	}
+	h3{
+		font-size:.14rem;
+	}
+	p{
+		font-size:.10rem;
+	}
+	img{
+		width:.7rem;
+		height: .7rem;;
+	}
+	#plus{
+			background: #646464;
+			top: 2.55rem;
+			width: .9rem;
+			height: .02rem;
+			left: 1.3rem;
+	}
+	.swiper-pagination-progressbar-fill{
+		background: white !important;
+	}
+}
+
+// selected
+.selected{
+	width:100%;
+	height: 4.3rem;
+	background: url(../img/selected_bg.webp) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	.pic1{
+		width: 3.15rem;
+    height: 1.2rem;
+    background: white;
+    border-radius: .1rem;
+    padding: .09rem;
+    position: absolute;
+    top: 1rem;
+		left: .21rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img{
+			width:1rem;
+			height: 1rem;
+		}
+		.intro{
+			font-weight: 800;
+			width:.91rem;
+			text-align: center;
+			h3{
+				font-size:.16rem;
+			}
+			.top{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			p{
+				font-size:.11rem
+				
+			}
+			img{
+				width:.1rem;
+				height: .1rem;
+				margin-left:.06rem;
+			}
+		}
+		.goods{
+			font-size:.14rem;
+			text-align: center;
+			p{
+				margin-top: .05rem;
+			}
+
+		}
+	}
+	.pic2{
+		top:2.7rem;
+	}
+}
+
+// recommended
+.recommened{
+	width:100%;
+	height:.8rem;
+	background: url(../img/recommended.webp) no-repeat;
+	background-size: cover;
+	
+}
+
+// cloth_list
+.wrapper{
+	nav{
+		height: .4rem;
+		box-sizing: border-box;
+		display: flex;
+		border-top:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+		.swiper-container{
+			flex: 1 !important;
+			.swiper-slide{
+				line-height: .4rem;
+				text-align: center;
+				font-size:.14rem;
+				color:black;
+			}
+			.swiper-slide-thumb-active{
+				border-bottom: 2px solid #000;
+			}
+		}
+		.icon{
+			width:.43rem;
+			background: blue;
+		}
+	}
+	.goods_list{
+		background: rgb(245, 243, 243);
+		padding:.12rem;
+			
+			.goods{
+				width:100%;
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: .12rem;
+			}	
+				img{
+					width:1.7rem;
+					height:1.7rem;
+				}
+			.goods_box{
+				width:1.7rem;
+				padding-bottom: .1rem;
+				background: white;
+				border-radius: .1rem;
+			}
+			.detail{
+				margin:0 .1rem;
+			}
+			.name{
+				font-size:.11rem;
+				margin-bottom: .12rem;
+			}
+			.bottom{
+				display: flex;
+				width:100%;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.price{
+				display: flex;
+				p{
+					font-size:.14rem;
+					font-weight: 900;
+				}
+			}
+			span{
+				font-size:.12rem;
+				position: relative;
+				top:.02rem;
+			}
+			button{
+				width:.55rem;
+				height: .18rem;
+				background: white;
+				border: 1px solid #878787;
+				color: #878787;
+				text-align: center;
+				border-radius: .2rem;
+				font-size:.12rem;
+				line-height: .14rem;
+			}
+		}
+	}
+
+// footer
+footer{
+	width:100%;
+	height: .54rem;
+	display: flex;
+	justify-content: space-around;
+	.item1{
+		
+		width:.5rem;
+		height: 100%;
+		background: url(../img/footer1.webp);
+		background-position: 0px 0px;
+		background-size:cover;
+	}
+	.item2{
+		
+		width:.5rem;
+		height: 100%;
+		background: url(../img/footer2.webp);
+		background-position: -.55rem 0px;
+		background-size:cover;
+	}
+	.item3{
+		
+		width:.5rem;
+		height: 100%;
+		background: url(../img/footer3.webp);
+		background-position: -.55rem 0px;
+		background-size:cover;
+	}
+	.item4{
+		
+		width:.5rem;
+		height: 100%;
+		background: url(../img/footer4.webp);
+		background-position: -.55rem 0px;
+		background-size:cover;
+	}
+}
